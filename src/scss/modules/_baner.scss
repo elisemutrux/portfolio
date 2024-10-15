@@ -1,0 +1,45 @@
+.banner-background {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  --offset: 20vw;
+  --item-font-size: 10vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-75% + var(--offset));
+}
+
+.banner-inner {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: scroll 40s linear infinite;
+}
+
+.banner span {
+  white-space: nowrap;
+  font-size: 60px;
+  font-weight: 300;
+  padding: 0 1vw;
+  text-transform: uppercase;
+}
+
+.banner-special {
+  font-family: "inria-serif", sans-serif;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+
+  100% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+}

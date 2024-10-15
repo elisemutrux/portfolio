@@ -1,0 +1,28 @@
+.navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.navigation-space {
+  width: 113px;
+}
+
+.navigation li a {
+  padding: 2px;
+  text-decoration: none;
+}
+
+.navigation-pages li a:hover {
+  border-bottom: solid 1.5px;
+}
+
+.navigation-title {
+  font-family: "inria-serif", sans-serif;
+  font-style: italic;
+}
+
+.navigation-header {
+  padding: 81px 0 113px;
+}
