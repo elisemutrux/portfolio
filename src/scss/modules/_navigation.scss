@@ -12,10 +12,10 @@
 .navigation li a {
   padding: 2px;
   text-decoration: none;
-}
 
-.navigation-pages li a:hover {
-  border-bottom: solid 1.5px;
+  &:hover {
+    border-bottom: solid 1px;
+  }
 }
 
 .navigation-title {

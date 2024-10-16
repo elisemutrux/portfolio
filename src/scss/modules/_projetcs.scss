@@ -23,3 +23,30 @@
 .projects-img-base-pages {
   width: 87%;
 }
+
+.projects-title-single-page {
+  font-family: "inria-serif";
+  font-size: 46px;
+  font-weight: 300;
+}
+
+.projects-description-single-pages {
+  font-family: "inria-sans";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.projects-img-single-pages {
+  width: 100%;
+  height: 500px;
+  background: green;
+  margin-top: 30px;
+}
+
+.projects-bloc-img-single-page {
+  margin-top: 100px;
+}
+
+.projects-language-single-page {
+  text-align: end;
+}
