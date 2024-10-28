@@ -60,5 +60,40 @@
 }
 
 .about-icon {
-  padding-right: 70px;
+  margin-right: 70px;
+}
+
+@media (max-width: 430px) {
+  .about-subtitel {
+    font-size: 18px;
+  }
+
+  .about-description-subtitel {
+    font-size: 18px;
+  }
+
+  .about-title {
+    font-size: 30px;
+  }
+
+  .about-birth {
+    font-size: 20px;
+  }
+
+  .about-first-section {
+    margin-bottom: 15px;
+  }
+
+  .about-second-section {
+    margin-top: 50px;
+  }
+
+  .about-icon {
+    width: 10%;
+    margin-right: 35px;
+  }
+
+  .about-box-icon {
+    margin-top: 50px;
+  }
 }

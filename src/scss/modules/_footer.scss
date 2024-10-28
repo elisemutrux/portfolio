@@ -9,3 +9,24 @@
   font-family: "inria-serif", sans-serif;
   font-style: italic;
 }
+
+.footer-contact {
+  margin-top: 150px;
+}
+
+@media (max-width: 430px) {
+  .footer {
+    font-size: 14px;
+    padding-bottom: 35px;
+  }
+
+  .footer-contact {
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-contact {
+    margin-top: 250px;
+  }
+}

@@ -85,3 +85,13 @@
     transform: translate3d(var(--move-initial), 0, 0);
   }
 }
+
+@media (max-width: 430px) {
+  .banner-second span {
+    font-size: 50px;
+  }
+
+  .banner span {
+    font-size: 50px;
+  }
+}
