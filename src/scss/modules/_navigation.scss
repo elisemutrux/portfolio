@@ -35,6 +35,7 @@
   right: 1;
   left: 1;
   margin: 2px;
+  z-index: 10000;
   border: 0.5px solid #12238c;
 }
 
@@ -49,5 +50,9 @@
 
   .navigation-header {
     padding-top: 50px;
+  }
+
+  .navigation-title {
+    padding-right: 20px;
   }
 }

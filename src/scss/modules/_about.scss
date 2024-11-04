@@ -1,6 +1,7 @@
 .about-title {
   font-size: 50px;
   font-weight: 400;
+  margin-top: 200px;
 }
 
 .about-first-section {
@@ -43,15 +44,20 @@
 
 .about-last-child {
   margin-bottom: 50px;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .about-photo {
   display: flex;
-}
+  justify-content: space-around;
 
-.about-photo-cv {
-  width: 35%;
-  justify-content: flex-end;
+  img {
+    width: 45%;
+    margin-top: 200px;
+  }
 }
 
 .about-box-icon {
@@ -61,6 +67,16 @@
 
 .about-icon {
   margin-right: 70px;
+}
+
+@media (max-width: 800px) {
+  .about-photo img {
+    margin-top: 100px;
+  }
+
+  .about-icon {
+    width: 40%;
+  }
 }
 
 @media (max-width: 430px) {
@@ -74,6 +90,7 @@
 
   .about-title {
     font-size: 30px;
+    margin-top: 150px;
   }
 
   .about-birth {
@@ -89,11 +106,16 @@
   }
 
   .about-icon {
-    width: 10%;
+    width: 40%;
     margin-right: 35px;
   }
 
   .about-box-icon {
     margin-top: 50px;
+  }
+
+  .about-photo img {
+    width: 80%;
+    margin-top: 75px;
   }
 }
