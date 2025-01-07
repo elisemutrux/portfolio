@@ -1,11 +1,15 @@
 .title {
-  font-size: 70px;
+  font-size: 100px;
   padding-bottom: 172px;
   margin-top: 200px;
 
-  span {
+  span.title-name {
     font-family: "inria-serif", sans-serif;
     font-style: italic;
+  }
+
+  span.title-imd {
+    font-size: 75px;
   }
 }
 
