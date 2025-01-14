@@ -1,7 +1,7 @@
 .burger {
   position: fixed;
   top: 27px;
-  left: 20px;
+  left: 24px;
   z-index: 1;
   width: 30px;
   height: 19px;
@@ -76,12 +76,10 @@
   transform: translateX(0);
 }
 
-@media (min-width: 900px) {
-  .burger {
-    display: none;
-  }
+.burger-menu {
+  display: block;
 
-  .menu {
+  @media (min-width: 992px) {
     display: none;
   }
 }
