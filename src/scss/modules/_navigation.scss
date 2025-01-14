@@ -19,10 +19,13 @@
   }
 }
 
-.navigation-title {
+.navigation-title a {
   font-family: "inria-serif", sans-serif;
   font-style: italic;
-  padding-right: 55px;
+
+  @media (min-width: 992px) {
+    margin-left: 55px;
+  }
 }
 
 .navigation.navigation-header {
