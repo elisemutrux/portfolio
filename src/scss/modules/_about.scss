@@ -12,6 +12,7 @@
   font-family: "inria-serif, sans-serif";
   font-style: italic;
   font-weight: 400;
+  font-size: 55px;
 }
 
 .about-birth {
@@ -60,7 +61,7 @@
 
   img {
     width: 45%;
-    margin-top: 200px;
+    margin-top: 150px;
   }
 }
 
@@ -130,5 +131,9 @@
   .about-photo img {
     width: 80%;
     margin-top: 75px;
+  }
+
+  .about-title-fonts-special {
+    font-size: 34px;
   }
 }

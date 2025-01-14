@@ -1,0 +1,21 @@
+.credits-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  margin-bottom: 15px;
+
+  &.t-two-line {
+    margin-top: 25px;
+  }
+}
+
+.credits-title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .credits-name {
+    margin-bottom: 25px;
+  }
+}
