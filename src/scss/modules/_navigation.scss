@@ -1,11 +1,3 @@
-.navigation-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 21px;
-  font-size: 20px;
-}
-
 .navigation-space {
   width: 113px;
 }
@@ -22,18 +14,13 @@
 .navigation-title a {
   font-family: "inria-serif", sans-serif;
   font-style: italic;
-
-  @media (min-width: 992px) {
-    margin-left: 55px;
-  }
-}
-
-.navigation.navigation-header {
-  padding: 10px 0 10px;
-  padding-left: 55px;
 }
 
 .navigation-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
   position: fixed;
   top: 1;
   right: 1;
@@ -41,6 +28,15 @@
   margin: 2px;
   z-index: 10000;
   border: 0.5px solid #12238c;
+  padding: 10px 10px;
+
+  @media (min-width: 576px) {
+    padding: 50px 25px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 25px 75px;
+  }
 }
 
 .navigation-title {
