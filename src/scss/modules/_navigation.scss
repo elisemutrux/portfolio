@@ -24,14 +24,13 @@
   z-index: 10000;
   border: 0.5px solid #12238c;
   padding: 10px 20px; /* Valeur par défaut */
-}
-@media screen and (min-width: 576px) {
-  .navigation-box {
+
+  @media (min-width: 576px) {
     padding: 15px 25px;
   }
-}
-@media screen and (min-width: 992px) {
-  .navigation-box {
+
+  // @media (width >= 992px) { range syntax
+  @media (min-width: 992px) {
     padding: 25px 75px;
   }
 }
